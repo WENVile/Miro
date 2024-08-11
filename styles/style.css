@@ -1,0 +1,97 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header li {
+    list-style: none;
+    padding: 20px;
+    display:block;
+    transition: all linear .1s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+header li:hover {
+    background-color: #050038;
+    text-decoration: none;
+    transition: all linear .2s;
+}
+
+header a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #050038;
+    text-decoration: none;
+    transition: all linear .1s;
+}
+
+header li:hover a{
+    transition: all linear .2s;
+    color: #ffffff;
+}
+
+
+h1, h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #050038;
+}
+
+.section-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #050038;
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+#hero-button {
+    background-color: #4262FF;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+form + p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #050038;
+}
+
+.body-link {
+    color: #4262FF;
+    text-decoration: underline;
+}
+
+.body-link:hover {
+    color:  #050038;
+    transition: all linear 0.2s;
+}
+
+.body-link:hover {
+    border: 1px solid #4262FF;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #050038;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
