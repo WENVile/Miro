@@ -1,10 +1,15 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
 }
 
 header li {
-    list-style: none;
     padding: 20px;
     display:block;
     transition: all linear .1s;
@@ -80,15 +85,17 @@ form + p {
     border-radius: 10px;
 }
 
+.section-list {
+    margin-left: 15px;
+    list-style-type: none;
+    list-style-image: url(../img/list-asset.png);
+}
+
 footer {
     background-color: #050038;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
-}
-
-footer li {
-    list-style: none;
 }
 
 footer a {
